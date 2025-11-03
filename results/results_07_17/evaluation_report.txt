@@ -1,0 +1,20 @@
+=== GRAVITATIONAL WAVE DENOISER EVALUATION REPORT ===
+
+Model: ../../data/models/denoiser_model.keras
+Validation Samples: 1000
+
+OVERALL PERFORMANCE:
+  mse                      : 0.147073
+  mae                      : 0.302592
+  rmse                     : 0.383501
+  pearson_r                : 0.544713
+  cross_correlation        : 0.544713
+  r_squared                : 0.279647
+  snr_improvement          : 2.94 dB
+  waveform_similarity      : 0.544730
+  noise_reduction_pct      : 49.23%
+
+SAMPLE STATISTICS:
+  R² Mean ± Std: 0.276 ± 0.348
+  SNR Gain Mean ± Std: 3.44 ± 2.33 dB
+  Noise Reduction: 48.94% ± 23.94%
